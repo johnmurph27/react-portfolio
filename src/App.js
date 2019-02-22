@@ -16,7 +16,6 @@ class App extends Component {
             <Nav className="mr-auto" />
             <Nav>
               <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Nav>
           </Navbar.Collapse>

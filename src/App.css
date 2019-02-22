@@ -3,8 +3,10 @@ body {
   font-family: "Karla", sans-serif;
 }
 
-a {
+nav a {
   color: black !important;
+  padding-left: 0.5em;
+  padding-right: 1em;
 }
 
 /*
@@ -84,7 +86,7 @@ a {
 }
 
 .aboutme-cell {
-  background-color: #0b0c10;
+  background-color: #e1e8f0;
 
   /* background-color: #6ad1b9; */
   width: 100%;
@@ -94,7 +96,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-bottom: 10vh;
-  color: #f8f9fa;
+  color: black;
 }
 
 .aboutme-title h1 {
@@ -200,11 +202,82 @@ a {
 }
 
 /*
+  Contact Page
+*/
+.contact-grid {
+  height: calc(100vh - 40px);
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #f8f9fa;
+}
+
+.contact-background {
+  background-image: url("data/brightblue-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  height: 40%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact-cell {
+  width: 75%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-header {
+  width: 100%;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.contact-header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact-links {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.contact-links a {
+  color: white;
+}
+
+i {
+  height: 100%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/*
   Responsive Landing Page Cell and Text
 */
 @media only screen and (min-width: 850px) {
   .landing-cell-background {
     width: 40%;
+  }
+  .contact-background {
+    width: 60%;
   }
   .banner-text h1 {
     font-size: 2.25em;
@@ -214,7 +287,7 @@ a {
     padding-left: 4em;
   }
   .aboutme-title h1 {
-    font-size: 4em;
+    font-size: 2.5em;
   }
   .aboutme-cell p {
     padding-left: 1em;
@@ -224,8 +297,16 @@ a {
   .aboutme-content {
     padding-left: 3em;
     padding-right: 3em;
+    font-size: 0.8em;
   }
   .header-text {
     font-size: 5em;
+  }
+  .contact-header h1 {
+    font-size: 2.75em;
+  }
+  i {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
