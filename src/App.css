@@ -1,0 +1,231 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Karla", sans-serif;
+}
+
+a {
+  color: black !important;
+}
+
+/*
+  Nav Bar settings
+*/
+.navbar-light .navbar-toggler {
+  border-color: #f8f9fa !important;
+}
+
+/*
+  Landing Page
+*/
+.landing-grid {
+  height: calc(100vh - 40px);
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #f8f9fa;
+}
+
+.landing-cell-background {
+  background-image: url("data/gree-background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  height: 60%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-cell {
+  width: 75%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 
+  Landing page Text
+*/
+.banner-text {
+  color: black;
+  opacity: 0.8;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+
+.banner-text h1 {
+  font-weight: bold;
+  font-size: 2.25em;
+  padding-bottom: 10px;
+}
+
+.banner-text h4 {
+  font-size: 20px;
+}
+
+/* 
+  About Me
+*/
+.background {
+  background-color: rgb(221, 255, 249);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutme-cell {
+  background-color: #0b0c10;
+
+  /* background-color: #6ad1b9; */
+  width: 100%;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10vh;
+  color: #f8f9fa;
+}
+
+.aboutme-title h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.aboutme-content {
+  padding-left: 1.5em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+}
+
+.aboutme-title {
+  padding-top: 3em;
+
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.aboutme-cell p {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+/*
+  Head shot picture
+*/
+.headshot-image {
+  width: 100%;
+  justify-self: center;
+}
+
+/* 
+  Resume styling
+*/
+
+#header-education {
+  background-image: url("data/ocean-backgorund.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-leadership {
+  background-image: url("data/tree-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-experience {
+  background-image: url("data/web-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.resume-grid div {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.resumeItem {
+}
+
+.resume-list li {
+  font-size: 1.5em;
+}
+
+.resume-title h4,
+.resume-details h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+.resume-date p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/*
+  Responsive Landing Page Cell and Text
+*/
+@media only screen and (min-width: 850px) {
+  .landing-cell-background {
+    width: 40%;
+  }
+  .banner-text h1 {
+    font-size: 2.25em;
+  }
+  .aboutme-title {
+    text-align: left;
+    padding-left: 4em;
+  }
+  .aboutme-title h1 {
+    font-size: 4em;
+  }
+  .aboutme-cell p {
+    padding-left: 1em;
+    padding-top: 0em;
+    font-size: 2em;
+  }
+  .aboutme-content {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .header-text {
+    font-size: 5em;
+  }
+}
