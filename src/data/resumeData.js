@@ -3,35 +3,35 @@ const resumeData = {
     title: "University of Colorado, Boulder, CO",
     subTitle: "Entrepreneurial Capstone",
     details:
-      "9 month program to develop business.|Pitched at the New Venture Challenge.|Developed MVP for decentralized music streaming platform using Javascript and AWS.",
+      "9 month program, created by Tech Stars, to develop a business.|Developed MVP music streaming platform, FairPlay Music, using Javascript  and AWS (S3, CloudFront, and Linux Servers).|Pitched at the New Venture Challenge.",
     date: "Fall 2017 - Spring 2018"
   },
   edcuationSpark: {
     title: "Spark Boulder, Boulder, CO",
     subTitle: "Frontend Web development course",
     details:
-      "Focus on front end web development course, working in HTML, CSS, and JavaScript.|Hands on learning experience with an ex-Microsoft employee.|10-week Web Development Bootcamp sponsored by Spark Boulder.",
+      "Focus on front end web development course, working in HTML, CSS, and JavaScript.|10-week Web Development Bootcamp, taught by current industry professionals.",
     date: "Summer 2016"
   },
   leadershipZayo: {
-    title: "Zayo Group, Boulder, Colorado",
-    subTitle: "Team Member",
+    title: "FairPlay Music, Boulder, Colorado",
+    subTitle: "CEO",
     details:
-      "Analyzed over 12,000 data point on potential customers.|Outlined and developed of the best sales plan to fit each individual client.|Lead presentation to a panel of 6 judges from the Zayo Group.|Developed the winning sales plan for the company based on the data analyzed.",
+      "Utilized Agile, two week sprints, to assess progress and deliver optimum productivity of team.|Conducted customer interviews, created user stories, and prioritized biweekly objectives.Compiled results of weekly OKR reviews and adjusted team’s plan accordingly.",
     date: "Fall 2015"
   },
   leadershipKappa: {
     title: "Kappa Sigma Fraternity, Boulder, Colorado",
     subTitle: "Academic Chair",
     details:
-      "Created fraternity’s first ever test bank with incentive plan resulting in over 100 exams in the first semester.|Hired tutors for struggling students and created study groups based on schedules.|Raised brothers’ average GPA by .75.",
+      "Hired tutors for struggling students and created study groups based on schedules.|Raised brothers’ average GPA by .50.Created fraternity’s first ever test bank with incentive plan resulting in over 100 exams in the first semester.",
     date: "Fall 2014 - Spring 2015"
   },
   experienceCity: {
     title: "City of Boulder Information Technologies,  Boulder, Colorado",
     subTitle: "Full Stack Intern",
     details:
-      "Develop on a platform with over 8,000 daily views using the Xpress content management system and Kohana framework.|Given responsibility to work independently.  Such as leading department meetings on requirements, developing all software, and gathering feedback for updates.|Gained experience developing full stack web applications using PHP, JavaScript, and a SQL or Oracle database.",
+      "Gained experience developing full stack web applications using PHP, JavaScript, and a SQL or Oracle database|Develop on a platform with over 8,000 daily views using the Xpress content management system and Kohana framework.|Given responsibility to work independently.  Such as leading department meetings on requirements, developing all software, and gathering feedback for updates.",
     date: "July 2017 - October 2018"
   },
   experienceData: {

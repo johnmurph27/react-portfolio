@@ -41,9 +41,13 @@ class Aboutme extends Component {
                     </Col>
                     <Col>
                       <p>
-                        JOJOJOJOJJJJJJ JJJJJJJ JJJJJJJ JJJJJJJ JJJJ JJJJJ JJJJJ
-                        JJJJJJ JJJJ lk;ajsdf lkasjdf lkjasdl kfjasdf asldk fjas
-                        lkdfja slkdjf
+                        I am an alumni of the University of Colorado at Boulder
+                        with a degree in computer science and minor in business.
+                        I am currently looking for a full time position as a
+                        software developer, I have experience in SQL, Java,
+                        React, Python, PHP, and Javascript. I have always
+                        enjoyed the collaborative aspect of computer science,
+                        developing software, and solving problems.
                       </p>
                     </Col>
                   </Row>
